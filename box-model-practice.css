@@ -1,0 +1,132 @@
+.content-box {
+    background-color: #3498db;
+    width: 300px;
+    height: 200px;
+}
+
+.padding-box {
+    background-color: #e74c3c;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+}
+
+.border-box {
+    background-color: #f39c12;
+    width: 300px;
+    height: 200px;
+    border: 5px solid #d35400;
+}
+
+.margin-box {
+    background-color: #9b59b6;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+}
+
+.broken-box {
+    width: 300px;
+    padding: 20px;
+    border: none;
+    box-sizing: border-box; /* This will fix the issue of exceeding the specified width of 300px */
+    background-color: #2ecc71;
+}
+
+.card {
+width: 300px;
+padding: 20px;
+border: 1px solid black;
+box-sizing: border-box;
+margin: 20px auto;
+background-color: #d35400;
+}
+
+.card img {
+    width: 100px;
+    display: block;
+}
+
+.card h4 {
+    margin-bottom: 15px;
+    font-family: cursive;
+}
+
+.card p {
+    margin-bottom: 15px;
+    color: var(--color-text);
+}
+
+.card button {
+    display: block;
+    width: 100px;
+    padding: 10px;
+    background-color: floralwhite;
+    color: darkolivegreen;
+    border: none;
+    cursor: grab;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: var(--font-base);
+    line-height: 1.6;
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--font-4xl);
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--font-3xl);
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--font-2xl);
+    font-weight: 500;
+    color: var(--color-primary);
+}
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--font-xl);
+    font-weight: 500;
+    color: var(--color-primary);
+}
+
+small {
+    font-size: var(--font-sm);
+    color: var(--color-text);
+}
+
+:root {
+    --font-xs: 0.75rem;    /* 12px */
+    --font-sm: 0.875rem;   /* 14px */
+    --font-base: 1rem;     /* 16px */
+    --font-lg: 1.125rem;   /* 18px */
+    --font-xl: 1.25rem;    /* 20px */
+    --font-2xl: 1.5rem;    /* 24px */
+    --font-3xl: 1.875rem;  /* 30px */
+    --font-4xl: 2.25rem;   /* 36px */
+}
+
+:root {
+    --color-primary:#241023ff;
+    --color-secondary: #31493cff;
+    --color-background: #8a716aff;
+    --color-text: #570000ff;
+    --color-muted: #c2b8b2ff;
+    
+    /* Variations */
+    --color-primary-light: #87f1ffff;
+    --color-primary-dark: #403233ff;
+}
+
