@@ -16,6 +16,8 @@ It demonstrates how to use **CSS Flexbox and Grid** to build responsive layouts 
 ---
 
 ## Project Structure
+
+IYF-S10-WEEK-02-DollaGrace/
 │── .vscode/
 │   └── settings.json        # VS Code settings
 │── images/                  # Project images
@@ -28,6 +30,7 @@ It demonstrates how to use **CSS Flexbox and Grid** to build responsive layouts 
 │── styles.css               # Main stylesheet
 │── LICENSE                  # License file
 └── README.md                # Documentation
+
 
 ---
 
