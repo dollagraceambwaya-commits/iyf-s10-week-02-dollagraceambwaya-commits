@@ -1,5 +1,4 @@
-# iyf-s10-week-02-DollaGrace
-## CSS Mastery (Week 2)
+# CSS Mastery (Week 2)
 
 ## Overview
 This project is part of **Season 10 – Week 2 CSS Mastery**.  
@@ -17,7 +16,7 @@ It demonstrates how to use **CSS Flexbox and Grid** to build responsive layouts 
 
 ## Project Structure
 
-IYF-S10-WEEK-02-DollaGrace/
+IYF-S10-WEEK-02-dollagraceambwaya/
 │── .vscode/
 │   └── settings.json        # VS Code settings
 │── images/                  # Project images
