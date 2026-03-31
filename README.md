@@ -16,7 +16,7 @@ It demonstrates how to use **CSS Flexbox and Grid** to build responsive layouts 
 
 ## Project Structure
 
-IYF-S10-WEEK-02-dollagraceambwaya/
+IYF-S10-WEEK-02-dollagraceambwaya-commits/
 │── .vscode/
 │   └── settings.json        # VS Code settings
 │── images/                  # Project images
